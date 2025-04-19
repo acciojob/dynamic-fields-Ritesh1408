@@ -32,13 +32,11 @@ const App = () => {
           <div key={index}>
             <input
               name="name"
-              placeholder="Name"
               value={field.name}
               onChange={(e) => handleChange(index, "name", e.target.value)}
             />
             <input
               name="age"
-              placeholder="Age"
               value={field.age}
               onChange={(e) => handleChange(index, "age", e.target.value)}
             />
